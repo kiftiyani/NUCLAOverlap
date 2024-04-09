@@ -1,9 +1,23 @@
 # Joint-wise Action Decomposition by Multi-action Recognition
 ## Dataset Description
-This work utilize [N-UCLA](https://wangjiangb.github.io/my_data.html) dataset that provides 3D human skeleton data captured by Kinect camera. The dataset consist of 1494 samples of 10 action classes listed in Table~\ref{nucla_class}.
+This work utilize [N-UCLA](https://wangjiangb.github.io/my_data.html) dataset that provides 3D human skeleton data captured by Kinect camera. The N-UCLA dataset comprises of 1494 samples of 10 action classes: pick up with one hand, pick up with two hand, drop trash, walk around, sit down, stand up, donning, doffing, throw, and carry.
 From the existing class of N-UCLA, we pair combinations of two actions and select the most realistic combination based on our judgment and the appearance of the data. 
 For instance, since the "walk" class is predominantly performed by the lower part of the body, it would be realistic to merge it with an action primarily performed by the upper body. 
 Due to the limitation of the class label and the importance of realistic combinations, this study only merges pairs of two classes.
+List of merged classes:
+|Class composition| Action Name|
+|-----------------|------------|
+|4, 3 | Walk around and drop trash|
+|4, 9 | Walk around and throw|
+|4, 10 | Walk around and carry|
+|5, 7 | Sit down and donning|
+|5, 8 | Sit down and doffing|
+|5, 10 | Sit down and carry|
+|6, 7 | Stand up and donning|
+|6, 8 | Stand up and doffing|
+|6, 9 | Stand up adn throw|
+|6, 10 | Stand up and carry|
+
 
 <figure>
   <img src="Figure/sample.jpg" alt="">
