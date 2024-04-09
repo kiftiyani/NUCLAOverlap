@@ -32,6 +32,22 @@ If the difference between the average motion of two corresponding body parts is 
 We sample a maximum of 200 samples for each combination, resulting in a total of 1983 samples.
 
 ## Resources
+The data presented in JSON files contains an array of skeletons and labels. Each JSON file organized as follows:
+```
+{
+  "file_name": "a003_a002_i13_i38",
+  "skeletons": [[
+                  [-0.7204612493515015, -0.2564444839954376, 1.1690807342529297],
+                  ...
+                ]],
+  "label": [[
+             [[0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0]],
+             ...
+            ]]
+}
+```
+the number after `a` in the file names identify the action label involve from the original N-UCLA dataset (start from 0). and the number after `i` indentify the data index for the merging.
+
 Download the dataset [here](https://drive.google.com/file/d/1LiZotTZS3L7FugxDdtOIsrvduVvXR76o/view?usp=sharing)
 
 ## References
