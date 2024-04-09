@@ -12,9 +12,9 @@ Due to the limitation of the class label and the importance of realistic combina
 
 ## Merging Process
 Initially, we partition the body into six parts that are most likely to exhibit distinct movements: head, middle body, left arm, right arm, left leg, and right leg. We calculate the average motion of each body part to define the class label. 
-For example, in the figure above, for the combination of action sit down and doffing, the \textcolor{red}{red X} in $8^{th}$ and $33^{rd}$ frame indicate joint with label sit down and \textcolor{blue}{blue circle} indicate joint with label doffing. 
-We assign this clear label ($$\color{yellow}most yellow$$ regions or $$\color{violet}most dark purple$$ regions in the left part of the figure above) if the average motion of the corresponding body part in one sample label is greater than the other sample label if the difference between these two and the average motions exceeds a threshold $\tau$=0.01. 
-If the difference between the average motion of two corresponding body parts is less than the threshold, we assign each joint label of this particular body part as weighted label based on the motion value for each joint, demonstrate with $$\color{green}green triangle$$ in the figure. 
+For example, in the figure above, for the combination of action sit down and doffing, the <code style="color : red">red X</code> in $8^{th}$ and $33^{rd}$ frame indicate joint with label sit down and <code style="color : blue">blue circlr</code> indicate joint with label doffing. 
+We assign this clear label ($\color{yellow}most yellow$ regions or $\color{purple}most dark purple$ regions in the left part of the figure above) if the average motion of the corresponding body part in one sample label is greater than the other sample label if the difference between these two and the average motions exceeds a threshold $\tau$=0.01. 
+If the difference between the average motion of two corresponding body parts is less than the threshold, we assign each joint label of this particular body part as weighted label based on the motion value for each joint, demonstrate with $\color{green}green triangle$ in the figure. 
 We sample a maximum of 200 samples for each combination, resulting in a total of 1983 samples.
 
 ## Resources
