@@ -48,7 +48,7 @@ The data presented in JSON files contains an array of skeletons and labels. Each
             ]]
 }
 ```
-the number after `a` in the file names identify the action label involve from the original N-UCLA dataset (start from 0). and the number after `i` indentify the data index for the merging.
+the number after `a` in the file names identify the action label involved from the original N-UCLA dataset (start from 0). and the number after `i` indentify the data index for the merging.
 
 ## References
 <a id="1">[1]</a>
