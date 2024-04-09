@@ -32,7 +32,8 @@ If the difference between the average motion of two corresponding body parts is 
 We sample a maximum of 200 samples for each combination, resulting in a total of 1983 samples.
 
 ## Resources
-Download the dataset [here](https://drive.google.com/file/d/1LiZotTZS3L7FugxDdtOIsrvduVvXR76o/view?usp=sharing)
+Download the dataset [here](https://drive.google.com/file/d/1LiZotTZS3L7FugxDdtOIsrvduVvXR76o/view?usp=sharing).
+
 The data presented in JSON files contains an array of skeletons and labels. Each JSON file organized as follows:
 ```
 {
