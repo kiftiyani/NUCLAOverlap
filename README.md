@@ -1,7 +1,7 @@
 # Joint-wise Action Decomposition by Multi-action Recognition
 ## Dataset Description
-This work utilize [N-UCLA](https://wangjiangb.github.io/my_data.html) dataset that provides 3D human skeleton data captured by Kinect camera. The N-UCLA dataset comprises of 1494 samples of 10 action classes: pick up with one hand, pick up with two hand, drop trash, walk around, sit down, stand up, donning, doffing, throw, and carry.
-From the existing class of N-UCLA, we pair combinations of two actions and select the most realistic combination based on our judgment and the appearance of the data. 
+This work utilize N-UCLA[[1]] dataset that provides 3D human skeleton data captured by Kinect camera. The N-UCLA dataset comprises of 1494 samples of 10 action classes: pick up with one hand, pick up with two hand, drop trash, walk around, sit down, stand up, donning, doffing, throw, and carry.
+From the existing class of N-UCLA[[1]], we pair combinations of two actions and select the most realistic combination based on our judgment and the appearance of the data. 
 For instance, since the "walk" class is predominantly performed by the lower part of the body, it would be realistic to merge it with an action primarily performed by the upper body. 
 Due to the limitation of the class label and the importance of realistic combinations, this study only merges pairs of two classes.
 List of merged classes:
@@ -34,4 +34,6 @@ We sample a maximum of 200 samples for each combination, resulting in a total of
 ## Resources
 Download the dataset [here](https://drive.google.com/file/d/1LiZotTZS3L7FugxDdtOIsrvduVvXR76o/view?usp=sharing)
 
-
+## References
+<a id="1">[1]</a>
+Wang, J., Nie, X., Xia, Y., Wu, Y., Zhu, S.: Cross-view action modeling, learning, and recognition. In: 2014 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). pp. 2649–2656. IEEE Computer Society, Los Alamitos, CA, USA ([jun 2014](https://doi.org/10.1109/CVPR.2014.339)). 
