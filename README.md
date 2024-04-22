@@ -7,16 +7,16 @@ Due to the limitation of the class label and the importance of realistic combina
 List of merged classes:
 |Class composition| Action Name|
 |-----------------|------------|
-|4, 3 | Walk around and drop trash|
-|4, 9 | Walk around and throw|
-|4, 10 | Walk around and carry|
-|5, 7 | Sit down and donning|
-|5, 8 | Sit down and doffing|
-|5, 10 | Sit down and carry|
-|6, 7 | Stand up and donning|
-|6, 8 | Stand up and doffing|
-|6, 9 | Stand up adn throw|
-|6, 10 | Stand up and carry|
+|4, 3 | Walk around while drop trash|
+|4, 9 | Walk around while throw|
+|4, 10 | Walk around while carry|
+|5, 7 | Sit down while donning|
+|5, 8 | Sit down while doffing|
+|5, 10 | Sit down while carry|
+|6, 7 | Stand up while donning|
+|6, 8 | Stand up while doffing|
+|6, 9 | Stand up while throw|
+|6, 10 | Stand up while carry|
 
 
 <figure>
