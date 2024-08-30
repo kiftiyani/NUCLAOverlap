@@ -32,9 +32,9 @@ If the difference between the average motion of two corresponding body parts is 
 We sample a maximum of 200 samples for each combination, resulting in a total of 1983 samples.
 
 ## Resources
-Download the dataset [here](https://drive.google.com/file/d/1LiZotTZS3L7FugxDdtOIsrvduVvXR76o/view?usp=sharing).
+Download the Northwestern-UCLA Multiview Action 3D Dataset [here](https://wangjiangb.github.io/my_data.html). Unzip and put it in `/data` directory.
 
-The data presented in JSON files contains an array of skeletons and labels. Each JSON file organized as follows:
+The generated data presented in JSON files contains an array of skeletons and labels. Each JSON file organized as follows:
 ```
 {
   "file_name": "a003_a002_i13_i38",
@@ -50,6 +50,12 @@ The data presented in JSON files contains an array of skeletons and labels. Each
 ```
 the number after `a` in the file names identify the action label involved from the original N-UCLA dataset (start from 0). and the number after `i` indentify the data index for the merging.
 
+## Acknowledgements
+This code is based on the data processing from [InfoGCN](https://github.com/stnoah1/infogcn).
+Many thanks to the original authors for their valuable contributions!
+
 ## References
 <a id="1">[1]</a>
 Wang, J., Nie, X., Xia, Y., Wu, Y., Zhu, S.: Cross-view action modeling, learning, and recognition. In: 2014 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). pp. 2649–2656. IEEE Computer Society, Los Alamitos, CA, USA ([jun 2014](https://doi.org/10.1109/CVPR.2014.339)). 
+
+
